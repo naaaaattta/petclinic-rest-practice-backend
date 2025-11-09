@@ -65,7 +65,7 @@ public interface OwnerRepository {
      * Retrieved <code>Owner</code>s from the data store, returning all owners, change
      *
      * @return a <code>Collection</code> of <code>Owner</code>s (or an empty <code>Collection</code> if none
-     * found)
+     * found)/
      */
 	Collection<Owner> findAll() throws DataAccessException;
 	
